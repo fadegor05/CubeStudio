@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;900&display=swap');
 
 :root {
     --theme-bg-color: #0F0F0F;
@@ -7,6 +7,7 @@
 
     --theme-text-color: #FFFFFF;
     --theme-hint-color: #6D6D6D;
+    --theme-selected-color: #979797;
     --theme-accent-color: #9FEF31;
 
     
@@ -16,6 +17,7 @@
 body, html {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
+    scroll-behavior: smooth
 }
 
 .container {

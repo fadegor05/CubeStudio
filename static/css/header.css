@@ -42,10 +42,14 @@ nav li {
 }
 
 nav a {
-    
-
+    transition: 0.2s;
     color: var(--theme-text-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.7rem;
+}
+
+nav a:hover {
+    transition: 0.2s;
+    color: var(--theme-selected-color);
 }

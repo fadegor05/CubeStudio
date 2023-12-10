@@ -1,0 +1,65 @@
+#about {
+    position: absolute;
+    margin-top: 10rem;
+}    
+
+.about-container {
+    margin-top: 20rem;
+}
+
+.about-title {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-text-color);
+    font-size: 8.2rem;
+    font-weight: 900;
+}
+
+.about-row {
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+.about-img {
+    border-radius: 50px;
+
+}
+
+
+.about-col {
+    margin-left: 5.625rem;
+}
+
+.about-name {
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-text-color);
+    font-size: 8.2rem;
+    font-weight: 900;
+}
+
+
+
+.about-github-icon {
+    padding-right: 0.625rem;
+}
+
+.about-github {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-hint-color);
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.about-github:hover {
+    color: var(--theme-selected-color);
+    transition: 0.2s;
+}
+
+.about-description {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-text-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}

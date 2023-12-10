@@ -1,11 +1,17 @@
-@property --x {
+@property --x1 {
     syntax: '<percentage>';
     inherits: false;
     initial-value: 0%;
   }
 
+  @property --x2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 100%;
+  }
+
 body {
-    background: radial-gradient(circle at var(--x) top, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%);
+    background: radial-gradient(circle at var(--x1) top, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%), radial-gradient(circle at var(--x2) 15%, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%);
     background-color: var(--theme-bg-color);
     animation: color 15s infinite alternate;
   }
@@ -13,9 +19,11 @@ body {
 
 @keyframes color {
     0% {
-        --x:0%;
+        --x1:0%;
+        --x2:100%;
     }
     100% {
-       --x:100%;
+       --x1:100%;
+       --x2:0%;
     }
 }
