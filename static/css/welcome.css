@@ -1,0 +1,29 @@
+.welcome-container {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.welcome-title {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-text-color);
+    font-size: 8.2rem;
+    font-weight: 900;
+}
+
+.welcome-title-border {
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 0.188rem;
+    -webkit-text-stroke-color: var(--theme-text-color);
+}
+
+.welcome-subtitle {
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-hint-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.welcome-filler-1 {
+    margin-top: 200px;
+}

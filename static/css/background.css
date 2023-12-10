@@ -1,0 +1,21 @@
+@property --x {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 0%;
+  }
+
+body {
+    background: radial-gradient(circle at var(--x) top, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%);
+    background-color: var(--theme-bg-color);
+    animation: color 15s infinite alternate;
+  }
+
+
+@keyframes color {
+    0% {
+        --x:0%;
+    }
+    100% {
+       --x:100%;
+    }
+}

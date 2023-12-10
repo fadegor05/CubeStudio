@@ -1,0 +1,51 @@
+header {
+    /*background: radial-gradient(circle at 10%, rgba(159,239,49,0.2) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);*/
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(30px);
+
+    min-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+    border-bottom: 0.125px solid;
+    border-color: var(--theme-secondary-bg-color);
+}
+
+.logo {
+    float: left;
+    margin-left: 4rem;
+
+    color: var(--theme-text-color);
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+}
+
+nav {
+    text-align: center;
+    margin-right: 18rem;
+    /*float: right;*/
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+nav a {
+    
+
+    color: var(--theme-text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
