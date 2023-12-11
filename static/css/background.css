@@ -11,7 +11,14 @@
   }
 
 body {
-    background: radial-gradient(circle at var(--x1) top, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%), radial-gradient(circle at var(--x2) 15%, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%);
+    background: 
+    radial-gradient(circle at var(--x1) top, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%), 
+    radial-gradient(circle at var(--x2) 15%, rgba(159,239,49,0.2) 0%, rgba(0,0,0,0) 10%, rgba(255,255,255,0) 100%),
+    radial-gradient(circle at var(--x1) 35%, rgba(84, 244, 148, 0.2) 0%, rgba(0,0,0,0) 20%, rgba(255,255,255,0) 100%),
+    radial-gradient(circle at var(--x2) 55%, rgba(121, 76, 255, 0.2) 0%, rgba(0,0,0,0) 20%, rgba(255,255,255,0) 100%),
+    radial-gradient(circle at var(--x1) 70%, rgba(55, 178, 255, 0.2) 0%, rgba(0,0,0,0) 20%, rgba(255,255,255,0) 100%);
+    
+    
     background-color: var(--theme-bg-color);
     animation: color 15s infinite alternate;
   }

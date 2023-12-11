@@ -1,0 +1,16 @@
+footer {
+    backdrop-filter: blur(30px);
+
+    min-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+    border-top: 0.125px solid;
+    border-color: var(--theme-secondary-bg-color);
+}
+
+.footer-info {
+    color: var(--theme-text-color);
+    padding: 0.25rem;
+}
