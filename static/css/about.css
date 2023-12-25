@@ -1,6 +1,6 @@
 #about {
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }    
 
 .about-container {
@@ -38,28 +38,40 @@
 }
 
 
-
-.about-github-icon {
-    padding-right: 0.625rem;
-}
-
-.about-github {
+.about-aka {
     font-family: 'Inter', sans-serif;
-    color: var(--theme-hint-color);
+    color: var(--theme-text-color);
     font-size: 3rem;
     font-weight: 600;
+}
+
+.about-developer {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-hint-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about-link-wrapper {
+    margin-top: 0.25rem;
+}
+
+
+
+.about-link {
+    display: inline-flex;
+    padding-right: 0.625rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-hint-color);
+    font-size: 1.5rem;
+    font-weight: 500;
     text-decoration: none;
     transition: 0.2s;
 }
-.about-github:hover {
-    color: var(--theme-selected-color);
-    transition: 0.2s;
+.about-link img {
+    padding-right: 0.3rem;
 }
 
-.about-description {
-    font-family: 'Inter', sans-serif;
-    color: var(--theme-text-color);
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-top: 2rem;
+.about-link:hover{
+    color: var(--theme-selected-color);
 }
