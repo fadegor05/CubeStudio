@@ -3,7 +3,7 @@
     color: var(--theme-text-color);
     font-size: 9rem;
     font-weight: 900;
-    padding-top: 15rem;
+    padding-top: 19rem;
     padding-bottom: 5rem;
 }
 
@@ -33,5 +33,5 @@
 .season-img {
     border-radius: 3rem;
     margin-top: 4rem;
-    width: 80rem;
+    width: 100%;
 }
