@@ -15,5 +15,4 @@ CubeStudio is a small, but pretty cozy <b>Minecraft</b> community that really li
 - Optimize background
 - Sliders for seasons
 - Rework Footer
-- Rework Seasons
 - English language
