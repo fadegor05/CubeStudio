@@ -1,0 +1,66 @@
+.soon {
+    margin-top: 12rem;
+}
+
+.soon-title {
+    font-family: 'Inter', sans-serif;
+    color: var(--theme-text-color);
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.soon-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--theme-hint-color);
+}
+
+.soon-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--theme-text-color);
+}
+
+.soon-cards-container {
+    margin-top: 2rem;
+}
+.soon-cards-row {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.soon-image {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.soon-card {
+    font-family: 'Inter', sans-serif;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2.5rem;
+    border: 2px solid;
+    border-color: var(--theme-secondary-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--theme-text-color);
+    box-shadow:
+        0 0 10rem 0.1rem rgba(255, 255, 255, 0.111);
+}
+
+.soon-card-md {
+    width: 40rem;
+}
+
+.soon-card-xl {
+    width: 40rem;
+    height: 40rem;
+}

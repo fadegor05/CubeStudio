@@ -1,15 +1,12 @@
-.season-main-title {
-    font-family: 'Inter', sans-serif;
-    color: var(--theme-text-color);
-    font-size: 9rem;
-    font-weight: 900;
-    padding-top: 19rem;
-    padding-bottom: 5rem;
-}
-
 .season-container {
+    
     padding-bottom: 16rem;
 }
+
+#season-anchor {
+    padding-top: 19rem;
+}
+
 
 .season-title {
     font-family: 'Inter', sans-serif;
@@ -34,4 +31,6 @@
     border-radius: 3rem;
     margin-top: 4rem;
     width: 100%;
+    box-shadow:
+        0 0 10rem 0.1rem rgba(255, 255, 255, 0.111);
 }

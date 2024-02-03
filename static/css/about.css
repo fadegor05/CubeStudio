@@ -21,7 +21,8 @@
 
 .about-img {
     border-radius: 50px;
-
+    box-shadow:
+        0 0 10rem 0.1rem rgba(255, 255, 255, 0.111);
 }
 
 

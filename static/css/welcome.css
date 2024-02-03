@@ -8,12 +8,14 @@
     color: var(--theme-text-color);
     font-size: 8.2rem;
     font-weight: 900;
+    
 }
 
 .welcome-title-border {
     color: rgba(0,0,0,0);
     -webkit-text-stroke: 0.188rem;
     -webkit-text-stroke-color: var(--theme-text-color);
+    
 }
 
 .welcome-subtitle {
@@ -22,6 +24,7 @@
     color: var(--theme-hint-color);
     font-size: 1.5rem;
     font-weight: 500;
+    
 }
 
 .welcome-filler-1 {
